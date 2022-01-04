@@ -31,12 +31,6 @@ a{
 
 
 
-
-
-
-
-
-
 #wrap{
     width: 100%;
     min-width: 1300px;
@@ -313,12 +307,10 @@ button{
 }
 
 .f_sns .yt a{
-    background-image: url(/resources/img/filmlog/sns_youtube.png);
-    
-    
+    background-image: url(/resources/img/filmlog/sns_youtube.png);  
 } 
     
-    
+
     
 .go_map{
   position: fixed;
