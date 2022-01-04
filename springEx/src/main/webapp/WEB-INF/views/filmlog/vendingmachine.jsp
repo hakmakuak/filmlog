@@ -19,7 +19,7 @@
         <h1 class="logo">
             <a href="#">필름로그</a>
         </h1>
-
+<!-- 필름로그 과제 -->
         <nav class="gnb">
             <ul>
                 <li><a href="http://localhost:8080/filmlog/vendingmachine/">Film Vending Machine</a></li>
