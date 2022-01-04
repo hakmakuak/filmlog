@@ -22,7 +22,7 @@
 
                 <nav class="gnb">
                     <ul>
-                        <li><a href="#">Film Vending Machine</a></li>
+                        <li><a href="http://localhost:8080/filmlog/vendingmachine/">Film Vending Machine</a></li>
                         <li><a href="#">Recycling</a></li>
                         <li><a href="#">camera &amp; film</a></li>
                     </ul>
