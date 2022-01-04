@@ -1,0 +1,606 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 13px;
+  line-height: 22px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: top;
+  border: none;
+}
+ul, ol{
+  list-style: none;
+}
+#wrap{
+  width: 100%;
+  min-width: 1100px;
+  max-width: 1300px;
+}
+#header{
+  height: 120px;
+}
+
+
+.headerIn{
+  width: 1300px;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+.logo a{
+  display: block;
+  width: 90px;
+  height: 100px;
+  background-image: url(/resources/img/filmlog/logo.png);
+  background-size: 90px auto;
+  text-indent: -99999px;
+}
+
+.gnb{
+  margin-left: -180px;
+}
+
+.gnb ul{
+  display: flex;
+}
+
+.gnb li{
+  margin-left: 80px;
+}
+
+.gnb li a{
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.member ul{
+  display: flex;
+}
+
+.member li{
+  margin-left: 20px;
+}
+
+.member li a{
+  font-size: 14px;
+  color: #333;
+}
+
+.member .sc a{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/resources/img/filmlog/icon_search.png);
+  text-indent: -99999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide{
+  position: relative;
+  height: 392px;
+ 
+}
+
+.slide-img{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -650px;
+  width: 1300px;
+  height: 330px;
+  background-image: url(/resources/img/filmlog/slide.PNG);
+  text-indent: -999999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container{
+  
+}
+.containerIn{
+  width: 1100px;
+  margin: 0 auto;
+  
+  padding: 0 50px;
+}
+.containerIn01{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.dropBox{
+  width: 550px;
+}
+.dropBox .d_top{
+  text-align: center;
+  margin-bottom: 35px;
+}
+.dropBox h2{
+  color: #444;
+  font-size: 25px;
+  line-height: 1.6em;
+  text-decoration: overline;
+}
+.dropBox .m_en{
+  display: inline-block;
+  color: #444;
+  font-size: 20px;
+  line-height: 2em;
+  border-bottom: 2px solid #444;
+}
+.filmlog_map{
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+}
+.map{
+  width: 400px;
+  height: 600px;
+  margin-left: 85px;
+  background-image: url(/resources/img/filmlog/map.png);
+  background-repeat: no-repeat;
+  background-size: 400px auto;
+  text-indent: -99999px;
+}
+.filmlog_map a{
+  font-weight: 300;
+  font-size: 11px;
+  padding: 1px 5px;
+  line-height: 1em;
+  color: #fff;
+  background-color: rgb(119, 118, 118);
+  border: 1px solid rgb(119, 118, 118);
+  border-radius: 2px;
+}
+.filmlog_map img{
+  width: 15px;
+  height: 15px;
+}
+.map_text{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.filmlog_map .location a:hover{
+  color: #444;
+  background-color: #ccc;
+  border: 1px solid rgb(119, 118, 118);
+}
+.seoul a{
+  position: absolute;
+  top: 115px;
+  left: 181px;
+}
+.seoul_lo{
+  position: absolute;
+  top: 118px;
+  left: 220px;
+}
+.kyenggi a{
+  position: absolute;
+  top: 135px;
+  left: 175px;
+}
+.kyenggi_lo{
+  position: absolute;
+  top: 136px;
+  left: 215px;
+}
+.suwon a{
+  position: absolute;
+  top: 153px;
+  left: 245px;
+}
+.suwon_lo{
+  position: absolute;
+  top: 155px;
+  left: 230px;
+}
+.wonju a{
+  position: absolute;
+  top: 147px;
+  left: 320px;
+}
+.wonju_lo{
+  position: absolute;
+  top: 148px;
+  left: 305px;
+}
+.gangneung a{
+  position: absolute;
+  top: 109px;
+  right: 94px;
+}
+.gangneung_lo{
+  position: absolute;
+  top: 111px;
+  right: 133px;
+}
+.chungju a{
+  position: absolute;
+  top: 180px;
+  left: 323px;
+}
+.chungju_lo{
+  position: absolute;
+  top: 182px;
+  left: 307px;
+}
+.gunsan a{
+  position: absolute;
+  top: 294px;
+  left: 205px;
+}
+.gunsan_lo{
+  position: absolute;
+  top: 295px;
+  left: 190px;
+}
+.kyengju a{
+  position: absolute;
+  top: 312px;
+  right: 78px;
+}
+.kyengju_lo{
+  position: absolute;
+  top: 315px;
+  right: 117px;
+}
+.sunchun a{
+  position: absolute;
+  top: 418px;
+  left: 226px;
+}
+.sunchun_lo{
+  position: absolute;
+  top: 420px;
+  left: 265px;
+}
+.jeju a{
+  position: absolute;
+  bottom: 56px;
+  left: 95px;
+}
+.jeju_lo{
+  position: absolute;
+  bottom: 51px;
+  left: 135px;
+}
+.busan a{
+  position: absolute;
+  bottom: 196px;
+  right: 130px;
+}
+.busan_lo{
+  position: absolute;
+  bottom: 193px;
+  right: 115px;
+}
+.text_ko, .text_en{
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  color: rgb(107, 105, 105);
+}
+.text_ko{
+  margin-bottom: 10px;
+}
+.dropbox_detail{
+  width: 430px;
+  margin-left: 40px;
+  margin-top: 140px;
+}
+.dropbox_detail a{
+  color: #444;
+}
+.dropbox_detail h2{
+  margin-bottom: 40px;
+}
+.dropbox_detail>ul>li{
+  display: none;
+ 
+}
+.containerIn .dropbox_detail .active1{
+  display: block;
+}
+.dropbox_detail h2{
+  color: #444;
+}
+.detail{
+  width: 430px;
+  height: 300px;
+}
+.detail li{
+  margin-bottom: 10px;
+}
+.detail li a:hover{
+  color: #999;
+}
+
+.detail .active a{
+  display: block;
+  background-color: #999;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+.detail .active a:hover{
+  color: #444;
+}
+.map_detail .active{
+  display: block;
+ 
+}
+.map_detail{
+  
+}
+.map_detail li{
+  display: none;
+  width: 430px;
+  height: 280px;
+}
+.map_detail li img{
+  width: 100%;
+  height: 100%;
+}
+
+.dropbox_img{
+  width: 100%;
+  margin-bottom: 100px;
+ 
+}
+.dropbox_img h3{
+  color: #444;
+}
+.dropbox_img ul{
+  display: flex;
+}
+.dropbox_img li{
+ width: 100%;
+ display: none;
+ padding: 20px;
+ box-sizing: border-box;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+ background-color: rgb(247, 247, 247);
+}
+.dropbox_img h3{
+  margin-bottom: 30px;
+}
+.dropbox_img img{
+  padding: 0 5px;
+  box-sizing: border-box;
+  width: 33%;
+  height: 300px;
+  object-fit: cover;
+  
+}
+.dropbox_img .active{
+  display: block;
+}
+.use_guide{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.use_guide h3{
+  color: #444;
+  line-height: 1.8em;
+  margin-bottom: 20px;
+}
+.use_guide p{
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 2.0em;
+}
+.use_guide p span{
+  font-weight: 400;
+  font-size: 12px;
+  color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+  background-color: #555;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footerIn{
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.f_logo{
+  width: 140px;
+  height: 35px;
+  background-image: url(/resources/img/filmlog/footer-logo.png);
+  background-size: 140px auto;
+  text-indent: -99999px;
+  margin-right: 80px;
+  margin-left: 20px;
+}
+.f_box{
+  margin-right: 100px;
+}
+
+.f_menu{
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.f_menu ul{
+  display: flex;
+}
+
+.f_menu li{
+  margin-right: 5px;
+}
+
+.f_menu li a{
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 3px 15px;
+  font-size: 15px;
+}
+
+.f_info{
+  margin-bottom: 20px;
+  color: #ddd;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.f_info span{
+  margin-right: 13px;
+}
+
+.copyright{
+  color: #ddd;
+  font-weight: 300;
+}
+
+.f_sns{
+  margin-top: 40px;
+}
+
+.f_sns ul{
+  display: flex;
+}
+
+.f_sns li{
+  margin-right: 10px;
+}
+
+.f_sns a{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-indent: -99999px;
+
+}
+
+.f_sns .fb a{
+  background-image: url(/resources/img/filmlog/sns_facebook.png);
+}
+
+.f_sns .ins a{
+  background-image: url(/resources/img/filmlog/sns_insta.png);
+}
+
+.f_sns .yt a{
+  background-image: url(/resources/img/filmlog/sns_youtube.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 필름로그 지도 바로가기 */
+
+.go_map{
+  position: fixed;
+  top: 50%;
+  right: 10%;
+  
+  width: 60px;
+  height: 60px;
+}
+.go_map img{
+  border-radius: 8px;
+  width: 40px;
+  height: 60px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.go_map p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  font-size: 11px;
+  color: #222;
+  border-radius: 10px;
+  background-color: #ccc;
+  opacity: 0.8;
+}
+.go_map p span{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.go_map a:hover p{
+  display: block;
+  
+}

@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+/* 브라우저 리셋 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #222;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    height: 120px;
+}
+
+
+.headerIn{
+    width: 1300px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.logo a{
+    display: block;
+    width: 90px;
+    height: 100px;
+    background-image: url(/resources/img/filmlog/logo.png);
+    background-size: 90px auto;
+    text-indent: -99999px;
+}
+
+.gnb{
+    margin-left: -180px;
+}
+
+.gnb ul{
+    display: flex;
+}
+
+.gnb li{
+    margin-left: 80px;
+}
+
+.gnb li a{
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.member ul{
+    display: flex;
+}
+
+.member li{
+    margin-left: 20px;
+}
+
+.member li a{
+    font-size: 14px;
+    color: #333;
+}
+
+.member .sc a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(/resources/img/filmlog/icon_search.png);
+    text-indent: -99999px;
+}
+
+.slide{
+    position: relative;
+    height: 392px;
+    /* margin-bottom: 500px; */
+}
+
+.slide-img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -650px;
+    width: 1300px;
+    height: 330px;
+    background-image: url(/resources/img/filmlog/slide.PNG);
+    text-indent: -999999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrap{
+    width: 100%;
+    min-width: 1300px;
+}
+
+#container{
+    width: 100%;
+    background: url(/resources/img/filmlog/1447410289.jpg)top no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#loginBox{
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+}
+
+#box{
+    width: 420px;
+    height: 150px;
+    margin-top: 15px;
+    background-color: #fff;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 40px;
+    border: 1px #fff solid;
+}
+
+.subTxt1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.subTxt1 a{
+    font-size: 12px;
+    color: #111;
+}
+
+#idCheck{
+    position: relative;
+    top: 30px;
+}
+
+#idCheck, span{
+    margin-bottom: 10px;
+}
+
+#box p:nth-child(2) span{
+    margin-left: 20px;
+}
+
+.subTxt1 a:hover{
+    font-weight: bold;
+}
+
+#id{
+    margin-bottom: 15px;
+}
+
+#id p{
+    position: relative;
+}
+
+#idCheck{
+    position: absolute;
+    left: 0;
+}
+
+
+
+button{
+    width: 500px;
+    color: #fff;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #aaa;
+    opacity: 0.9;
+    border-radius: 5px;
+    border: 1px #aaa solid;
+}
+
+button:hover{
+    background-color: #555;
+    border: 1px #555 solid;
+}
+
+#inputBox{
+    width: 400px;
+    height: 28px;
+    font-size: 14px;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+/* 사진 다 나오게 하기, 이메일 저장 박스 아래로 내리기 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    background-color: #555;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.footerIn{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.f_logo{
+    width: 140px;
+    height: 35px;
+    background-image: url(/resources/img/filmlog/footer-logo.png);
+    background-size: 140px auto;
+    text-indent: -99999px;
+    margin-right: 80px;
+    margin-left: 20px;
+}
+.f_box{
+    margin-right: 100px;
+}
+
+.f_menu{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.f_menu ul{
+    display: flex;
+}
+
+.f_menu li{
+    margin-right: 5px;
+}
+
+.f_menu li a{
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 3px 15px;
+    font-size: 15px;
+}
+
+.f_info{
+    margin-bottom: 20px;
+    color: #ddd;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.f_info span{
+    margin-right: 13px;
+}
+
+.copyright{
+    color: #ddd;
+    font-weight: 300;
+}
+
+.f_sns{
+    margin-top: 40px;
+}
+
+.f_sns ul{
+    display: flex;
+}
+
+.f_sns li{
+    margin-right: 10px;
+}
+
+.f_sns a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-indent: -99999px;
+
+}
+
+.f_sns .fb a{
+    background-image: url(/resources/img/filmlog/sns_facebook.png);
+}
+
+.f_sns .ins a{
+    background-image: url(/resources/img/filmlog/sns_insta.png);
+}
+
+.f_sns .yt a{
+    background-image: url(/resources/img/filmlog/sns_youtube.png);
+}
+
+
+.go_map{
+  position: fixed;
+  top: 50%;
+  right: 10%;
+  
+  width: 60px;
+  height: 60px;
+}
+.go_map img{
+  border-radius: 8px;
+  width: 40px;
+  height: 60px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.go_map p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  font-size: 11px;
+  color: #222;
+  border-radius: 10px;
+  background-color: #ccc;
+  opacity: 0.8;
+}
+.go_map p span{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.go_map a:hover p{
+  display: block;
+  
+}
